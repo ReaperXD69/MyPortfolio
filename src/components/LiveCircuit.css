@@ -1,0 +1,15 @@
+.circuit-container {
+  margin: 2rem 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.glow-dot {
+  fill: #a259ff;
+  filter: drop-shadow(0 0 6px #a259ff) drop-shadow(0 0 10px #00d4ff);
+  transition: all 0.2s ease-in-out;
+}
+.glow-dot:hover {
+  fill: #00d4ff;
+  filter: drop-shadow(0 0 6px #00d4ff) drop-shadow(0 0 10px #a259ff);
+}
